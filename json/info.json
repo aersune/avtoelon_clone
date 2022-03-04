@@ -1,0 +1,82 @@
+[
+  {
+    "title" : "Ferrari SF-90",
+    "cost" : "98 000 $",
+    "color": "white",
+    "text": "lorem ipsum dolar sim amet hariss largon de willi",
+    "img": "assets/sf90_white.jpg",
+
+    "make": "Ferrari",
+    "first": "2021",
+    "body": "coupe",
+    "doors": "2",
+    "longtext": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered"
+
+
+  },
+  {
+    "title" : "Ferrari SF-90",
+    "cost" : "95 260 $",
+    "color": "red",
+    "text": "lorem ipsum dolar sim amet hariss largon de willi",
+    "img": "assets/sf90_red.jpeg",
+
+    "make": "Ferrari",
+    "first": "2021",
+    "body": "coupe",
+    "doors": "2",
+    "longtext": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered"
+  },
+  {
+    "title" : "BMW M4",
+    "cost" : "38 500 $",
+    "color": "red",
+    "text": "lorem ipsum dolar sim amet hariss largon de willi",
+    "img": "assets/bmw_m4.jpeg",
+
+    "make": "BMW",
+    "first": "2018",
+    "body": "coupe",
+    "doors": "4",
+    "longtext": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered"
+  },
+  {
+    "title" : "BMW M5",
+    "cost" : "56 300 $",
+    "color": "blue",
+    "text": "lorem ipsum dolar sim amet hariss largon de willi",
+    "img": "assets/bmw_m5.png",
+
+    "make": "BMW",
+    "first": "2019",
+    "body": "coupe",
+    "doors": "4",
+    "longtext": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered"
+  },
+  {
+    "title" : "Mercedes",
+    "cost" : "45 800 $",
+    "color": "white",
+    "text": "lorem ipsum dolar sim amet hariss largon de willi",
+    "img": "assets/Mercedes.png",
+
+    "make": "Mercedes",
+    "first": "2021",
+    "body": "coupe",
+    "doors": "2",
+    "longtext": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered"
+  },
+  {
+    "title" : "Mercades S Class",
+    "cost" : "69 250 $",
+    "color": "white",
+    "text": "lorem ipsum dolar sim amet hariss largon de willi",
+    "img": "assets/mercades_s_class.png",
+
+    "make": "Mercedes",
+    "first": "2020",
+    "body": "coupe",
+    "doors": "2",
+    "longtext": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered"
+  }
+]
