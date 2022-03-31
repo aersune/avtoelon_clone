@@ -40,14 +40,15 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
-    timer?.cancel();
+    timer.cancel();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Navbar(),
+      backgroundColor: Colors.white,
+      drawer: const Navbar(),
       appBar: AppBar(
         backgroundColor: Color(0xff0089d0),
         title: Text("Avtoelon"),
@@ -77,35 +78,39 @@ class _HomePageState extends State<HomePage> {
                               firstregistration: info[i]["first"],make: info[i]["make"], longText: info[i]['longtext'],image: info[i]["img"],);
                           }));
                         },
-                        child: Row(
+                        child: Column(
                           children: [
-                            Column(
-                              children:  [
+                            Row(
+                              children: [
                                 Container(
                                     padding: EdgeInsets.all(9),
                                     height: 132,
                                     width: 170,
-                                    child: Image(image: AssetImage(info[i]["img"] ), ))
+                                    child: Image(image: AssetImage(info[i]["img"] ), )),
+                                Expanded(child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(info[i]["title"] ,style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                    Text(info[i]["text"] ),
+                                    SizedBox(height: 15,),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.start,
+                                      children: [
+                                        Text(" Color: "),
+                                        Text(info[i]["color"] , style: TextStyle(fontWeight: FontWeight.bold),),
+                                        Expanded(child: Container()),
+                                        Text(" Price: "),
+                                        Text(info[i]["cost"],  style: TextStyle(fontWeight: FontWeight.bold),),
+                                        SizedBox(width: 30,)],
+                                    ),
+                                  ],
+                                ))
                               ],
                             ),
-                            Expanded(child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(info[i]["title"] ,style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                                Text(info[i]["text"] ),
-                                SizedBox(height: 15,),
-                                Row(
-                                  mainAxisAlignment: MainAxisAlignment.start,
-                                  children: [
-                                    Text(" Color: "),
-                                    Text(info[i]["color"] , style: TextStyle(fontWeight: FontWeight.bold),),
-                                    Expanded(child: Container()),
-                                    Text(" Price: "),
-                                    Text(info[i]["cost"],  style: TextStyle(fontWeight: FontWeight.bold),),
-                                    SizedBox(width: 30,)],
-                                ),
-                              ],
-                            ))
+                            const Divider(
+                              height: 1,
+                              thickness: 1,
+                            ),
                           ],
                         ),
                       ),

@@ -24,37 +24,33 @@ class Navbar extends StatelessWidget {
                       ),
                 ),
               ),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               image: DecorationImage(
                 image: NetworkImage("https://i.pinimg.com/originals/d8/2e/41/d82e41bdb8eacc0304ce9324179519e5.jpg",
                 ),fit: BoxFit.cover,
               )
             ),
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(Icons.account_circle),
             title: Text("Account"),
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(Icons.favorite),
             title: Text("Favorites"),
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(Icons.share),
             title: Text("Share"),
           ),
-          ListTile(
-            leading: Icon(Icons.favorite),
-            title: Text("Favorites"),
-          ),
-          ListTile(
+          const ListTile(
             leading: Icon(Icons.settings),
             title: Text("Settings"),
           ),
-          Divider(),
+          const Divider(),
           ListTile(
             leading: Icon(Icons.exit_to_app),
-            title: Text("Exit"),
+            title: const Text("Exit"),
             onTap: (){
               exit(0);
             },

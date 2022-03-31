@@ -19,7 +19,7 @@
     "cost" : "95 260 $",
     "color": "red",
     "text": "lorem ipsum dolar sim amet hariss largon de willi",
-    "img": "assets/sf90_red.jpeg",
+    "img": "assets/sf90_red.jpg",
 
     "make": "Ferrari",
     "first": "2021",
@@ -32,7 +32,7 @@
     "cost" : "38 500 $",
     "color": "red",
     "text": "lorem ipsum dolar sim amet hariss largon de willi",
-    "img": "assets/bmw_m4.jpeg",
+    "img": "assets/bmw_red1.jpg",
 
     "make": "BMW",
     "first": "2018",
@@ -45,7 +45,7 @@
     "cost" : "56 300 $",
     "color": "blue",
     "text": "lorem ipsum dolar sim amet hariss largon de willi",
-    "img": "assets/bmw_m5.png",
+    "img": "assets/bmw_blue1.png",
 
     "make": "BMW",
     "first": "2019",
@@ -58,7 +58,7 @@
     "cost" : "45 800 $",
     "color": "white",
     "text": "lorem ipsum dolar sim amet hariss largon de willi",
-    "img": "assets/Mercedes.png",
+    "img": "assets/mercades.jpg",
 
     "make": "Mercedes",
     "first": "2021",
@@ -71,7 +71,7 @@
     "cost" : "69 250 $",
     "color": "white",
     "text": "lorem ipsum dolar sim amet hariss largon de willi",
-    "img": "assets/mercades_s_class.png",
+    "img": "assets/mercades_s1.png",
 
     "make": "Mercedes",
     "first": "2020",
